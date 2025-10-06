@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비밀의 아이프리 카드 리스트</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 타이틀 이미지 -->
+        <div class="title-image">
+            <img src="card_tit_img92c3.png" alt="카드 컬렉션">
+        </div>
+        
+        <!-- 탭 버튼 -->
+        <div class="tab-buttons">
+            <button class="tab-button active" data-tab="season1">아이프리 1탄</button>
+            <button class="tab-button" data-tab="season2">아이프리 2탄</button>
+        </div>
+        
+        <!-- 시즌1 컨텐츠 -->
+        <div class="season-content active" id="season1-content">
+            <!-- 구분선 (상단) -->
+            <div class="section-line top-line">
+                <img src="main_section_line.png" alt="구분선">
+            </div>
+            
+            <!-- 4성 카드 섹션 -->
+            <div class="rarity-section">
+                <h2 class="rarity-title">
+                    <img src="star_492c3.png" alt="4성 카드" class="rarity-image">
+                </h2>
+                <div class="cards-grid" id="season1-4star">
+                    <!-- 시즌1 4성 카드들 -->
+                </div>
+            </div>
+            
+            <!-- 3성 카드 섹션 -->
+            <div class="rarity-section">
+                <h2 class="rarity-title">
+                    <img src="star_392c3.png" alt="3성 카드" class="rarity-image">
+                </h2>
+                <div class="cards-grid" id="season1-3star">
+                    <!-- 시즌1 3성 카드들 -->
+                </div>
+            </div>
+            
+            <!-- 2성 카드 섹션 -->
+            <div class="rarity-section">
+                <h2 class="rarity-title">
+                    <img src="star_292c3.png" alt="2성 카드" class="rarity-image">
+                </h2>
+                <div class="cards-grid" id="season1-2star">
+                    <!-- 시즌1 2성 카드들 -->
+                </div>
+            </div>
+            
+            <!-- 구분선 (하단, 180도 회전) -->
+            <div class="section-line bottom-line">
+                <img src="main_section_line.png" alt="구분선">
+            </div>
+        </div>
+
+        <!-- 시즌2 컨텐츠 -->
+        <div class="season-content" id="season2-content">
+            <!-- 구분선 (상단) -->
+            <div class="section-line top-line">
+                <img src="main_section_line.png" alt="구분선">
+            </div>
+            
+            <!-- 4성 카드 섹션 -->
+            <div class="rarity-section">
+                <h2 class="rarity-title">
+                    <img src="star_492c3.png" alt="4성 카드" class="rarity-image">
+                </h2>
+                <div class="cards-grid" id="season2-4star">
+                    <!-- 시즌2 4성 카드들 -->
+                </div>
+            </div>
+            
+            <!-- 3성 카드 섹션 -->
+            <div class="rarity-section">
+                <h2 class="rarity-title">
+                    <img src="star_392c3.png" alt="3성 카드" class="rarity-image">
+                </h2>
+                <div class="cards-grid" id="season2-3star">
+                    <!-- 시즌2 3성 카드들 -->
+                </div>
+            </div>
+            
+            <!-- 2성 카드 섹션 -->
+            <div class="rarity-section">
+                <h2 class="rarity-title">
+                    <img src="star_292c3.png" alt="2성 카드" class="rarity-image">
+                </h2>
+                <div class="cards-grid" id="season2-2star">
+                    <!-- 시즌2 2성 카드들 -->
+                </div>
+            </div>
+            
+            <!-- 구분선 (하단, 180도 회전) -->
+            <div class="section-line bottom-line">
+                <img src="main_section_line.png" alt="구분선">
+            </div>
+        </div>
+        
+        <!-- 캡처 버튼 -->
+        <button class="capture-btn" id="captureBtn">컬렉션 캡처하기</button>
+    </div>
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
